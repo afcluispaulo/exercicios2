@@ -1,0 +1,36 @@
+CAPÍTULO 01 -
+
+inteiro idade[4] // O primeiro índice é sempre 0
+
+idade[0] = 5
+idade[1] = 9
+idade[2] = 15
+idade[3] = 75
+
+/* se uma variável for inteiro, todos os valores dentro da variável composta
+ * terão que ser do mesmo tipo. Por causa disso é considerada varíável composta
+ * homogênea, ou seja, todos os elementos do mesmo tipo. O seu nome completo é
+ * variável composta homogênea unidimensional. O apelido no Estudonauta é VETOR.
+ * Não confundir com vetor de física, vetor em programação é uma variável capaz de
+ * guardar vários elementos de um mesmo tipo identificados por um único endereço.
+ */
+
+Capítulo 04 - 
+
+	// Ordem Inversa
+		u.aguarde(1000)
+		escreva("=========== Mostrando a sequência invertida... == \n")
+		para (inteiro pos = u.numero_elementos(num) - 1; pos >= 0; pos--) {
+			escreva(pos + ":{" + num[pos] + "} ")
+			u.aguarde(500)
+
+Capítulo 05 - 
+	
+	chave = 3
+	para (p = 0; p<5; p++ {
+		escreva("Pos: ", p
+	}
+
+MISS MISS HIT 
+[7]  [5]  [3] [8]  [6]
+[0]  [1]  [2] [3]  [4]

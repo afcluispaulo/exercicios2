@@ -1,0 +1,2 @@
+o contador principal vai da posição 0 até a penúltima posição.
+O secundário sempre começa uma posição depois da principal e vai ate a ultima.

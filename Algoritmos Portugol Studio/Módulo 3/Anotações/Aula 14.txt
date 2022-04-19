@@ -1,0 +1,16 @@
+Teste de Mesa - Laços Aninhados
+
+para (x=1;x<=3; x++) {
+	para(y=1; y<=2; y++) {
+		escreva(x, y)
+	} // Resolve primeiro o valor de y até y ser menor ou igual a 2.
+} // o x só passa a valer 2 quando o y é maior ou igual a 2, que aí da o valor estourado
+e volta a ser 1 e assim por diante
+
+	x | y
+	1   1
+        1   2
+        2   1 (Estourado, então o x passa a valer 2 e o y 1).
+	2   2
+        3   1
+        3   2

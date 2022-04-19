@@ -1,0 +1,55 @@
+programa
+{
+	/*	EXERCÍCIO 057 - Sorteio Invertido. O programa deverá sortear 10 valores em
+	 * um vetor[10], em seguida exibir sua posição e o valor e depois mostrar os valores
+	 * na ordem do vetor invertida.
+	 * 	EXEMPLO: vetor[0], vetor[1], vetor[2]. Ordem invertida: vetor[2], vetor[1], vetor[0].
+	 * 	Autor: Luis Paulo Noronha e Sousa Freire.
+	 * 	Formado em Sistemas de Informação pela UNIRB-Mossoró em 2018.2.
+	 */
+
+	inclua biblioteca Util --> u
+	funcao inicio()
+	{
+		// Variáveis
+		inteiro num[10]
+		
+		escreva("{ EXERCÍCIO 057 - Sorteio Invertido } \n")
+		escreva("=========== Vou sortear 10 valores... ===========\n")
+		u.aguarde(1000)
+		
+		// Análise de Dados
+		para (inteiro pos = 0; pos < u.numero_elementos(num); pos++) {
+			num[pos] = u.sorteia(1, 10)
+		}
+
+		// RESULTADOS
+		// Ordem Progressiva
+		para (inteiro pos = 0; pos < u.numero_elementos(num); pos++) {
+			escreva(pos + ":{" + num[pos] + "} ")
+			u.aguarde(500)
+		}
+		escreva("\n")
+		
+		// Ordem Inversa
+		u.aguarde(1000)
+		escreva("=========== Mostrando a sequência invertida... == \n")
+		para (inteiro pos = u.numero_elementos(num) - 1; pos >= 0; pos--) {
+			escreva(pos + ":{" + num[pos] + "} ")
+			u.aguarde(500)
+		}
+		escreva("\n\nFIM! THE END!")
+		escreva("\n\n")
+	}
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 1241; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */

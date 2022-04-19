@@ -1,0 +1,3 @@
+- Aula 00
+
+	Iterar é diferente de interar. Iterar significa repetir. Interar significa interagir.

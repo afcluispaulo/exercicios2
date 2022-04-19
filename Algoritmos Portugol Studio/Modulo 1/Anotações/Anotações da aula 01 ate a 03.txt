@@ -1,0 +1,61 @@
+Aula 01
+Regras:
+
+1 - começa com uma letra.
+2 - Só usa letras e numeros (pode usar underline tambem).
+3 - nada de acentos.
+4 - não pode conter espaços.
+5 - não pode ter símbolos (só o underline).
+6 - não pode ser uma palavra reservada (depende muito da linguagem que está usando).
+
+Processamento é muito auxiliado pela memória principal, onde a memória principal é representada por blocos.
+Pode colocar valores em cada quadrado sendo Zé em um e 19 no outro e podem ser alterados.
+Cada valor contem o nome do identificador e o tipo primitivo que ele está relacionado.
+
+
+Aula 02
+
+Coisas que podem guardar em um programa: podemos guardar números, letras e respostas (sim ou nao, verdadeiro ou falso, desse tipo).
+Cada linguagem contem alguns tipos a mais ou algusn tipos a menos de tipos primitivos.
+Os números se dividem em duas categorias: inteiros e real.
+Letras tem duas opções: caracter e cadeia.
+Respostas tem um tipo: lógico (ou booleano).
+
+Exemplos de tipo inteiro: 130 é um numero inteiro, 0, -18, 4 milhoes é um numero inteiro. numeros inteiros não tem vírgulas, ou o que chamamos na programação de pontos flutuantes.
+Exemplos de numero real (tem partes fracionarias): 4.5.
+Se for 4 é um número inteiro, 4.0 é um numero real.
+
+Exemplos de Caracter: 'A'. USA ASPAS SIMPLES
+Cadeia de caracteres (é um conjunto de caracteres): "Olá" USA ASPAS DUPLAS.
+Se utilizar uma letra só: ASPAS SIMPLES. Se utilizar mais de uma letra: ASPAS DUPLAS. Nada impede de ter uma letra só com ASPAS DUPLAS, é uma cadeia de caracteres com uma letra só,
+porém sempre que Gustavo Guanabara falar de caractere (1 caractere só): ASPAS SIMPLES.
+
+Exemplo de valor lógico: falso ou verdadeiro (resposta a alguma coisa), sim ou nao.
+
+Cadeia tambem pode ser vazio, se abre ASPAS DUPLAS e fecha ASPAS DUPLAS e nao tem nada no meio é uma cadeia de caractere.
+
+
+Aula 03:
+
+para declarar um valor: TIPO IDENTIFICADOR = (= é atribuição/recebe) VALOR
+
+se colocar somente
+inteiro idade
+reserva um espaço mas nao guarda valor.
+
+real nota = 7.5 (reserva espaço na memoria e coloca o valor 7.5)
+cadeia nome = "Zé"
+logico casado = falso
+
+ATRIBUIÇÃO é = (recebe)
+
+nome = "Gustavo" 
+idade = 48
+sexo = 'M'
+aprovado = falso
+
+
+ 
+
+
+

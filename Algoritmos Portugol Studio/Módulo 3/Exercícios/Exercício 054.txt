@@ -1,0 +1,84 @@
+programa
+{
+	/*	Exercício 054 - Pessoas Validadas. O programa deverá ler um nome com pelo menos 3 caracteres e
+	 * sua idade com um valor válido, depois deverá fazer uma pergunta se quer continuar, depois digitar
+	 * outro valor e assim sucessivamente, depois deverá mostrar quantas pessoas foram digitadas
+	 * e em seguitda mostrar a pessoa mais jovem e a pessoa mais velha. Caso os valores sejam inválidos
+	 * o programa deverá mostrar uma mensagem de erro (tanto para nome quanto para idade).
+	 * 	Autor: Luis Paulo Noronha e Sousa Freire.
+	 * 	Formado em Sistemas de Informação pela UNIRB-Mossoró em 2018.2
+	 */
+
+	inclua biblioteca Tipos --> ti
+	inclua biblioteca Texto --> txt
+	funcao inicio()
+	{
+		
+		// Variáveis
+		caracter resp
+		
+		cadeia teclado, nome
+		nome = " "
+		
+		inteiro num, idade, maior, menor, cPessoa = 1
+		menor = 0
+		maior = 0
+		
+		escreva("{ EXERCÍCIO 053 - Números Validados } \n")
+		
+		inteiro cValor = 1
+
+		faca {
+			enquanto(verdadeiro) {
+				// Entrada de Dados
+				escreva("-------------------------------")
+				escreva("\n           PESSOA " + cPessoa)
+				escreva("\n-------------------------------")
+				escreva("\nNome: ")
+				leia(teclado)
+				se (txt.numero_caracteres(teclado)>3) {
+					nome = teclado
+					pare
+				} senao {
+					escreva("<<ERRO>>O nome deve ter pelo menos 3 letras! \n")
+				}
+			} 
+			
+			enquanto(verdadeiro) {
+				escreva("Idade: ")
+				leia(teclado) 
+				se (ti.cadeia_e_inteiro(teclado, 10)) {
+					idade = ti.cadeia_para_inteiro(teclado, 10)
+					se (idade >= 0 e idade <= 120) {
+						pare
+					} senao {
+						escreva("<<ERRO>> Idade inválida! \n")
+					}
+					} senao {
+						escreva("<<ERRO>> O valor deve ser um número inteiro! \n")
+					}	
+			}
+			cPessoa ++
+			
+			
+			enquanto(verdadeiro) {
+			 	escreva("Quer continuar? [S/N] ")
+			 	leia(teclado)
+			 	se (ti.cadeia_e_caracter(teclado)) {
+			 		resp = ti.cadeia_para_caracter(teclado)
+			 		se (resp == 'S' ou resp == 's' ou resp == 'N' ou resp == 'n') {
+			 			pare
+			 		}
+			 		senao {
+			 			escreva("<<ERRO>> O valor deve ser S ou N\n")
+			 		}
+			 	}
+			 }
+			
+			
+		} enquanto (resp == 'S' ou resp == 's') // RESULTADOS
+		escreva("\n-=-=-=-=-=-=-=-=-=- RESULTADO =-=-=-=-=-=-=-=-=-=")
+		escreva("\nAo todo, você digitou " + cValor + " valores ")
+		
+	}
+}

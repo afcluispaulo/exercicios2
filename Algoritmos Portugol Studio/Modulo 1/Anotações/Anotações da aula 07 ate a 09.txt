@@ -1,0 +1,34 @@
+Aula 07
+	
+	Se o + ou o - for usado para somar ou subtrair, respectivamente, eles são considerados binarios. Se forem usado para deixar o numero positivo ou negativo (exemplo: de 2 para -2
+ou de -2 para 2), então ele é considerado unário.
+	10%2 significa vamos pegar um numero 10 e dividir pra duas pessoas. SOBRA 0.
+	para calcular a porcentagem multiplica a quantidade de porcentagem que quer saber pelo valor e divide por 100. Exemplo: 10% de um preço em algoritmo eh: (preco*10)/100
+	ORDEM DE PRECEDENCIA EM ALGORITMO (de cima para baixo):
+        - ( )
+	- + e - (menos)
+	- *, / e %
+	- soma e subtração de forma binária.
+
+Aula 09 
+
+	Ao termos	|	podemos facilitar usando 
+	k = k * 3		k *= 3
+	a = a + 4		a += 4
+	x = x * 3		x *= 3
+	k = k + 1		k += 1
+	n = n - 1		n -= 1
+
+	Onde sempre que tiver um sinal *=, por exemplo, no problema k*=3, o * antes do = significa que 
+ta usando k = k+3.
+	n /= 2 =====> n = n / 2.
+	quando for n++ quer dizer que some 1 com n. (n ++ ===> n = n +1)
+
+Aula 10
+	Texto.numero_caracteres() -> diz quantas letras tem dentro de um texto.
+	Texto.posicao_texto() - diz em que posicao tem a letra "a" dentro de um texto (se é que tem), ou "j" (se é que tem).
+	Texto.extrair_subtexto() - consegue pegar de um texto inteiro um pedaço dele.
+	Texto.substituir() - pode dentro de uma cadeia de caracteres um pedaço de uma cadeia e substituir para outra cadeia.
+	Texto.caixa()alta - letras maiúsculas.
+	Texto.caixa_baixa() - letras minúsculas.
+

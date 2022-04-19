@@ -1,0 +1,66 @@
+Aula 02 
+
+	- Comparações:
+	== IGUAL. Diferente de = que é recebe (<-)
+	!= DIFERENTE. Testar a diferença
+	> MAIOR.
+	< MENOR.
+	>= MAIOR OU IGUAL.
+	<= MENOR OU IGUAL.
+	
+	Em algoritmo a==b ta testando se "a" é igual a "b".
+	a!=b significa que "a" é diferente de "b".
+	a>=b significa que "a" é maior ou igual a "b".
+	Se uma expressão tem um operador relacional sempre vai ser do
+tipo lógico, ou seja: verdadeiro ou falso.
+
+Aula 03
+	
+	- Comparações:
+	E -> CONJUNÇÃO.
+	OU -> DISJUNÇÃO.
+	NAO -> NEGAÇÃO. (Não é digitado SEM ACENTO!).
+	
+	Toda premissa pode ser verdadeira ou falsa.
+
+	E | p | q | p ^ q
+	    V   V     V
+            V   F     F
+            F   V     F
+            F   F     F
+	Quando tem duas premissas e essas duas premissas somadas como 
+um par são verdadeiras, tem como resultado lógico verdadeiro.
+	Para qualquer outra combinação de verdadeiro ou falso tem resultado
+como falso. DICA: FALSO COM FALSO DA FALSO
+
+	OU | p | q | p v q
+	     V   V     V
+	     v   F     V
+	     F   V     V
+             F   F     F
+	Basta que uma premissa seja verdadeira para que o resultado lógico
+seja verdadeiro.
+
+        NAO | p | ¬p
+	      V   F
+              F   V
+
+	PRECEDÊNCIA
+	|
+	| NAO
+	|
+	| E
+	|
+	| OU
+	V
+
+	PRECEDÊNCIA TOTAL
+	|
+	| PARÊNTESES
+	|
+	| ARITMÉTICOS
+	|
+	| RELACIONAIS
+	|
+	| LÓGICOS
+	V

@@ -1,0 +1,16 @@
+Isolando Elementos em Matrizes
+
+num[3][2]
+
+ num
+0[0][0] [0][1]
+1[1][0] [1][1]  -> o primeiro elemento varia e o segundo é sempre fixo.
+2[2][0] [2][1]
+   0      1
+
+	Para eu fixar uma coluna eu tenho que variar a linha. de maneira similar, para eu fixar uma linha
+eu tenho que variar a coluna. Quero fixar uma linha? O "para" é da coluna. Quero fixar uma coluna? O "para"
+é da linha.
+
+
+

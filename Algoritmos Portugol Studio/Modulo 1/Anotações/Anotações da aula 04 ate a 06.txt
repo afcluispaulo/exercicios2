@@ -1,0 +1,18 @@
+Aula 04
+
+	Constante é quando uma variável não altera o valor.
+	Quando for declarar uma constante começar com const, depois o tipo primitivo e em seguida o nome da variável em MAIÚSCULO,
+ex: const real MPPASSAR = ( o "=" significa "RECEBE") 7.5.
+	Pode usar a constante para não precisar de digitar o valor toda vida, por exemplo no programa
+	SE media <= MPPASSAR
+	ESCREVA ("Reprovado")
+	SENAO
+		SE media >= MPPASSAR
+		ESCREVA ("Aprovado")
+		FIMSE
+	FIMSE
+
+Aula 05
+
+
+	

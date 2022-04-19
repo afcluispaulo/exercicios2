@@ -1,0 +1,17 @@
+inteiro num[3][2]
+ONDE [3] (primeiro) = linhas e [2] (segundo) = colunas.
+
+inteiro num[3][2]
+para (L = 0; L < 3; L ++) {
+	para (C = 0; C < 2; C++) {
+		num[L][C] = 10
+	}
+}
+
+precisa de um para dentro do outro para percorrer a matriz completamente
+
+
+0 [10] [10]
+1 [10] [10]
+2 [10] [10]
+    0   1	

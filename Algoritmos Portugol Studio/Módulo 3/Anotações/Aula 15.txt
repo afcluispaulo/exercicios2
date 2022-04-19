@@ -1,0 +1,13 @@
+faca {
+	escreva("Digite sexo: ")
+	leia(sx)
+} enquanto(sx!='M' e
+		sx!='F')
+
+----------------------------------------
+
+faca {
+	escreva("Digite idade: ")
+	leia(id)
+} enquanto(id<=0 ou
+		id>=130) 
